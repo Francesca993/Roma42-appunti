@@ -21,6 +21,7 @@
 - **cat** : legge, concatena e scrive il contenuto di file
 - **less** : visualizza il contenuto di file pagina per pagina
 - **vim** + nome file : creo il file editabile + "i" per insert per scrivere + "esc" + ":x" per chiudere e salvare
+<link href="https://www.marioconcina.it/blog/come-fare/lista-comandi-vim.html" >ELENCO DEI COMANDI VIM QUI</link>
 
 ## Aggiungere dei permessi
 
@@ -35,7 +36,9 @@ Ci sono tre comandi per la gestione dei permessi sui file:
 - chmod > cambia modalità
 - chown > cambia proprietà
 - chgrp > cambia gruppo
+
   Le opzioni per controllare i permessi a livello utente sono:
+
 - **u** > concede permessi a un utente
 - **g** > concede permessi a un gruppo
 - **o** > concede permessi agli altri
