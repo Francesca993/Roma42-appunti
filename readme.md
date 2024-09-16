@@ -25,7 +25,7 @@
 ## Aggiungere dei permessi
 
 - **chmod**: ci sono tre tipi di permessi:
-  -r > lettura
+- r > lettura
 - w > scrittura
 - x > esecuzione
 
@@ -48,9 +48,9 @@ Ci sono tre comandi per la gestione dei permessi sui file:
 - scrittura: 2
 - esecuzione: 1
 
-ES gestire i permessi in modalità SIMBOLICA
-chmod u+rwx, go+r install.sh // u+rwx > aggiunta scrittura, lettura esecuzione per gli utenti, go+r > aggiunta lettura per gli altri
-ES gestire i permessi in modalità OTTALE:
+ES gestire i permessi in modalità SIMBOLICA  
+chmod u+rwx, go+r install.sh // u+rwx > aggiunta scrittura, lettura esecuzione per gli utenti, go+r > aggiunta lettura per gli altri  
+ES gestire i permessi in modalità OTTALE:  
 chmod 744 install.sh // il primo numero 7 da tutti i permessi all'utente perchè la somma di 4(lettura)+2(scrittura)+1(esecuzione), il secondo (4) rappresenta i permessi per i gruppi (4 solo lettura), il terzo numero è per gli altri
 
 nella versione simbolica si possono mascherare i bit di permesso che vogliamo cambiare mentre nella modalità ottale i permessi sono assoluti e non possono essere usati per modificare i singoli bit
