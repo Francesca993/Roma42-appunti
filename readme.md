@@ -59,17 +59,17 @@ nella versione simbolica si possono mascherare i bit di permesso che vogliamo ca
 
 ## Creare un link simbolico (o symbolic link)
 
-collegamento a un file o a una cartella
+- Collegamento a un file o a una cartella
 
-Link simbolici: chiamati anche soft link, puntano al percorso di un altro file. Se elimini il file a cui punta il collegamento (chiamato target) il collegamento esisterà ancora, ma “smetterà di funzionare”, poiché ora non punterà più a niente.
+**Link simbolici**: chiamati anche soft link, puntano al percorso di un altro file. Se elimini il file a cui punta il collegamento (chiamato target) il collegamento esisterà ancora, ma “smetterà di funzionare”, poiché ora non punterà più a niente.
 
-Hard Link
-Pensa a un collegamento fisico (hard) come a un secondo nome per il file originale. Non sono duplicati, ma sono invece una voce aggiuntiva nel filesystem che punta alla stessa posizione (inode) sul disco.
+**Hard Link**: Pensa a un collegamento fisico (hard) come a un secondo nome per il file originale. Non sono duplicati, ma sono invece una voce aggiuntiva nel filesystem che punta alla stessa posizione sul disco.
+
 Il comando per creare un hard link su Linux è ln. La sintassi di base è:  
 $ ln TARGET LINK_NAME  
 Il TARGET deve già esistere (questo è il file a cui punterà il collegamento), e se il target non si trova nella directory corrente, o se si desidera creare il collegamento altrove, è necessario specificare il percorso completo a esso. Per esempio, il comando:
 
 $ ln target.txt /home/carol/Documents/hardlink
 
-Anche il comando usato per creare un collegamento simbolico è ln, ma con l’aggiunta dell’opzione -s. Così:  
+Anche il comando usato per creare un **collegamento simbolico** è ln, ma con l’aggiunta dell’opzione -s. Così:  
 $ ln -s <"percorso del file o della cartella da collegare"> <"percorso del collegamento da creare">
