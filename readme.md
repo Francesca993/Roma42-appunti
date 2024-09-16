@@ -21,7 +21,8 @@
 - **cat** : legge, concatena e scrive il contenuto di file
 - **less** : visualizza il contenuto di file pagina per pagina
 - **vim** + nome file : creo il file editabile + "i" per insert per scrivere + "esc" + ":x" per chiudere e salvare
-<link href="https://www.marioconcina.it/blog/come-fare/lista-comandi-vim.html" >ELENCO DEI COMANDI VIM QUI</link>
+  ELENCO DEI COMANDI VIM QUI  
+  "https://www.marioconcina.it/blog/come-fare/lista-comandi-vim.html"
 
 ## Aggiungere dei permessi
 
