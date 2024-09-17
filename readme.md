@@ -81,4 +81,15 @@ Il TARGET deve già esistere (questo è il file a cui punterà il collegamento),
 $ ln target.txt /home/carol/Documents/hardlink
 ```
 Anche il comando usato per creare un **collegamento simbolico** è ln, ma con l’aggiunta dell’opzione -s. Così:  
-```$ ln -s <"percorso del file o della cartella da collegare"> <"percorso del collegamento da creare">```
+```
+$ ln -s <"percorso del file o della cartella da collegare"> <"percorso del collegamento da creare">
+```
+# Comandi GIT
+```
+$ git clone // per clonare la repository su cui pusheremo
+$ git status // per verificare lo stato della cartella da pushare
+$ git add . // per preparare i file da committare e il . serve per includere tutti i file altrimenti andrebbe specificato il nome
+$ git commit -m "commento" // 
+$ git push
+
+```
