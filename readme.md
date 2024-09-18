@@ -15,6 +15,7 @@
 - **du** : mostra l'utilizzo dello spazio su disco di file e directory
 - **truncate** -s 40 nomefile : imposta la dimensione di 40 byte
 - **touch** -t 202306012342 nomefile : cambia la data
+- **diff**:  strumento di confronto utilizzato per identificare le differenze tra due file. È molto utile per vedere cosa è cambiato tra due versioni di un file. 
 
 ## Visualizzazione e modifica dei file
 
@@ -62,6 +63,11 @@ chmod 744 install.sh // il primo numero 7 da tutti i permessi all'utente perchè
 ```
 nella versione simbolica si possono mascherare i bit di permesso che vogliamo cambiare mentre nella modalità ottale i permessi sono assoluti e non possono essere usati per modificare i singoli bit
 
+Per rendere eseguibile un file possiamo farlo con chmode +x:
+```
+chmod +x <nomeFileEseguibile.sh>
+```
+
 **- ls -l nomefile** > per leggere i permessi di un file o una directory
 
 ## Creare un link simbolico (o symbolic link)
@@ -91,5 +97,5 @@ $ git status // per verificare lo stato della cartella da pushare
 $ git add . // per preparare i file da committare e il . serve per includere tutti i file altrimenti andrebbe specificato il nome
 $ git commit -m "commento" // 
 $ git push
-
 ```
+
