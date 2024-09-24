@@ -29,19 +29,60 @@ Si può conferire un valore a una variabile tramite un ** assegnamento. **
 I nomi delle variabili vengono chiamati ** identificatori **.  
 Il valore in esso contenuto viene definito ** costante **.  
 
-## Operatori aritmetici
+### Operatori aritmetici
 - Unario: "+" e "-"  richiedono un solo operando.
 - Binario: " + - / * % " (% restituisce il resto).  
-## Operatori di assegnamento
+### Operatori di assegnamento
 - L'assegnamento semplice con l'operatore "="  per memorizzare il suo valore all'interno di una vadiabile.
 - Assegnamento composto: ovvero i+=2 è lo stesso di i= i + 2;
-## Operatori di incremento e devremento
+### Operatori di incremento e devremento
 ```
 i= i+1; è uguale a i+=1
 ```
 - Incremento ++
 - Decremento --
+### Operatori relazionali
+< minore di
+> maggiore di
+<= minore uguale a
+=> maggiore uguale a
+== uguale a
+!= diverso da 
 
+### Operatori logici
+! negazione logica
+&& and logico
+|| or logico
+
+### Istruzioni di selezione
+- Istruzioni di selezione: if, switch
+- Istruzioni di iterazione: while, do, for
+- Istruzioni di salto: breack, comtinue, goto
+- Istruzione composta
+
+### I booleani
+In c non restituisce vero o falso, ma un valore intero:
+- 0 pee falso
+- 1 per vero
+
+## L'istruzione "IF"
+Permette al programma di scegliere tra due alternative sulla base del valore di una espressione.  
+if(espressione)istruzione  
+La clausola "else": l'istruzione che segue la clausola else viene eseguota se il ritorno dell'if e valore 0.  
+```
+if (i > j) 
+{
+  max = i;
+}
+else
+{
+max = j;
+}
+```
+### Operatori condizionali
+espr1 ? espr2 : espr3
+return i > j ? i : j;
+tradotto: se i è meaggiore di j allora esegui la i, altrkmenti la j.
 
 
 
