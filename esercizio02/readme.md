@@ -1,12 +1,12 @@
-# I puntatori:
+ <h1 align="center">Basi e fondamenti di C</h1>
 
-Un puntatore è una variabile che memorizza l'indirizzo di memoria di un'altra variabile. Piuttosto che contenere un valore diretto come una normale variabile, un puntatore contiene l'indirizzo di memoria in cui si trova il valore.
+
+
+
+
+
+
 ```
-void    ft_ft(int *nbr)
-{
-        int     *nbr;
 
-        *nbr = 42;
-}
 
 ```
